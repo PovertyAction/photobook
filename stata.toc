@@ -1,0 +1,3 @@
+v 3
+d photobook create a nicely formatted photobook from a list of image files
+p photobook create a nicely formatted photobook from a list of image files

@@ -1,0 +1,27 @@
+v 3
+d 'PHOTOBOOK': Create a nicely formatted photobook from a list of image files
+d
+d photobook uses the new PDF features available in Stata 15 to create
+d "photobooks", or tables of nicely arrayed images with captions, from
+d a dataset with a list of image file locations and corresponding 
+d captioning variables. At IPA we use it to construct reference books
+d with respondent's photos and demographic information for use in 
+d tracking and identification.
+d 
+d KW: survey data
+d KW: data management
+d KW: pdf
+d KW: graphics
+d KW: photos
+d 
+d Requires: Stata version 15
+d 
+d Distribution-Date: 20180801
+d 
+d Author: Christopher Boyer, Innovations for Poverty Action
+d Support: email researchsupport@poverty-action.org
+
+f photobook.ado
+f photobook.sthlp
+f jar/stata_thumbnailator.jar
+f jar/thumbnailator-0.4.8.jar
