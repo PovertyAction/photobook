@@ -1,6 +1,22 @@
 # photobook
 Stata program to create a nicely formatted photobook from a list of image files
 
+Installation
+--------------------
+To always ensure you have the most up-to-date version, you can install the `photobook` program directly using either of the two methods mentioned below. 
+
+```Stata
+* method 1 - use Stata's net install command
+net install photobook, ///
+    from("https://raw.githubusercontent.com/PovertyAction/photobook/master") ///
+    replace 
+    
+* method 2 - use haghish's github command
+github install PovertyAction/photobook
+```
+
+If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/PovertyAction/photobook/issues). For questions and other discussion, please email us at [researchsupport@poverty-action.org](mailto:researchsupport@poverty-action.org).
+
 Certification script
 --------------------
 
