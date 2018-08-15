@@ -2,8 +2,8 @@
 Stata program to create a nicely formatted photobook from a list of image files
 
 Installation
---------------------
-To always ensure you have the most up-to-date version, you can install the `photobook` program directly using either of the two methods mentioned below. 
+------------
+To always ensure you have the most up-to-date version, you can install the `photobook` command directly from GitHub by using either of the two methods mentioned below in the Stata console window. 
 
 ```Stata
 * method 1 - use Stata's net install command
@@ -16,6 +16,20 @@ github install PovertyAction/photobook
 ```
 
 If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/PovertyAction/photobook/issues). For questions and other discussion, please email us at [researchsupport@poverty-action.org](mailto:researchsupport@poverty-action.org).
+
+Examples
+----------
+The `photobook` command is designed to work directly on data as exported by SurveyCTO. To run it you simply load your dataset into Stata and run `photobook` on the media variable where photos were collected (e.g. if you programmed an image variable named `respondent_photo` in your survey you would run photobook on this variable in the exported data). See below for example syntax.
+
+```Stata
+
+* simple example with default settings
+photobook respondent_photo using "myphotobook.pdf", replace
+
+* add formatting 
+photobook respondent_photo using "myphotobook.pdf", ncol(5) bold allcaps landscape replaceA
+
+```
 
 Certification script
 --------------------
