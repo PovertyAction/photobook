@@ -27,7 +27,7 @@ The `photobook` command is designed to work directly on data as exported by Surv
 photobook respondent_photo using "myphotobook.pdf", replace
 
 * add formatting 
-photobook respondent_photo using "myphotobook.pdf", ncol(5) bold allcaps landscape replaceA
+photobook respondent_photo using "myphotobook.pdf", ncol(5) bold allcaps landscape replace
 
 ```
 
